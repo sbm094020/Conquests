@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<head>
+	<title> SM Geographical Conquests</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+	<script src="js/datamaps.all.min.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<h1> Sachin's World Conquests </h1>
+	</div>
+	<div id="outer">
+		<div id="inner">
+			<div id="panels_container">
+				<div id="intro_container">
+					<div id="intro_text">
+						Hi there! My name is Sachin. I'm a 23 y.o programmer seeking to put out some projects in the hope of leaving my digital trace in the world. This is a a personal project I began to track all the countries I ever visited. I hope to have this map almost completely filled before I bid adieu to the planet. After all, man was put on this planet to explore the world.
+						<br>
+						<p><i> "We travel, some of us forever, to seek other places, other lives, other souls." - Anais Nin </i></p>
+						<p>
+							<bold> The picture on the right was taken in Austin near Mt. Bonell. In case you were curious :) </bold>
+						</p>
+
+					</div>
+					<img id="intro_pic" src="images/AustinV1.jpg" alt="NY2013">
+				</div>
+				<div id="world_map_container">
+					<div id="world_map"></div>
+					<div class="chart_legend">
+						<span class="icon icon-traveledTo"></span> Traveled To
+						<span class="icon icon-layover"></span> Flight Layover
+					</div>
+				</div>
+				<script>
+					var world_map = new Datamap({
+						element: document.getElementById("world_map"),
+						geographyConfig: {
+							popupOnHover: false
+						},
+						projection: 'equirectangular',
+						fills: {
+							defaultFill: "#ABDDA4",
+							authorHasTraveledTo: "#fa0fa0",
+							authorHasHadLayover: "#5C8FA0"
+						},
+						data: {
+							USA: {
+								fillKey: "authorHasTraveledTo"
+							},
+							IND: {
+								fillKey: "authorHasTraveledTo"
+							},
+							OMN: {
+								fillKey: "authorHasTraveledTo"
+							},
+							SAU: {
+								fillKey: "authorHasTraveledTo"
+							},
+							FRA: {
+								fillKey: "authorHasHadLayover"
+							},
+							DEU: {
+								fillKey: "authorHasHadLayover"
+							},
+						}
+					});
+
+					var colors = d3.scale.category10();
+
+					window.setInterval(function () {
+						basic_choropleth.updateChoropleth({
+							USA: colors(Math.random() * 10),
+							RUS: colors(Math.random() * 100),
+							AUS: {
+								fillKey: 'authorHasTraveledTo'
+							},
+							BRA: colors(Math.random() * 50),
+							CAN: colors(Math.random() * 50),
+							ZAF: colors(Math.random() * 50),
+							IND: colors(Math.random() * 50),
+						});
+					}, 2000);
+				</script>
+				<div id="text1"> I have called the US, my home for nearly 10 years now. Additionally, I have had the pleasure of visiting a great many number of states and plan on attending all 50 someday. Here's my progress thus far:
+				</div>
+				<div id="usa_map_container">
+					<div id="usa_map"></div>
+					<div class="chart_legend">
+						<span class="icon icon-visited"></span> Visited
+						<span class="icon icon-unvisited"></span> Unvisited
+					</div>
+				</div>
+				<script>
+					var usa_map = new Datamap({
+						scope: 'usa',
+						element: document.getElementById('usa_map'),
+						geographyConfig: {
+							highlightBorderColor: '#bada55',
+							highlightBorderWidth: 3
+						},
+
+						fills: {
+							'visited': '#CC4731',
+							defaultFill: '#EDDC4E'
+						},
+						data: {
+							"AZ": {
+								"fillKey": "visited"
+							},
+							"CO": {
+								"fillKey": "visited"
+							},
+							"GA": {
+								"fillKey": "visited"
+							},
+							"MO": {
+								"fillKey": "visited"
+							},
+							"NV": {
+								"fillKey": "visited"
+							},
+							"NJ": {
+								"fillKey": "visited"
+							},
+							"NY": {
+								"fillKey": "visited"
+							},
+							"NM": {
+								"fillKey": "visited"
+							},
+							"OK": {
+								"fillKey": "visited"
+							},
+							"PA": {
+								"fillKey": "visited"
+							},
+							"TX": {
+								"fillKey": "visited"
+							},
+							"CA": {
+								"fillKey": "visited"
+							},
+							"AR": {
+								"fillKey": "visited"
+							},
+						}
+					});
+					usa_map.labels();
+				</script>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		Copyright &#169; Sachin Moozhikulam
+	</div>
+</body>
+
+</html>

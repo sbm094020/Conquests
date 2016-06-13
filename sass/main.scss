@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : Apr 26, 2016, 10:35:33 PM
+    Author     : sachinbb
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#outer {
+    margin: 0 auto;
+    background: url("../images/inner_bg.jpg");
+}
+
+#outer #inner {
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0em;
+    width: 70%;
+    background-color: #35465c;
+}
+
+#panels_container {
+    margin: 0 auto;
+    padding: 1em;
+    background-color: grey;
+}
+
+#panels_container #intro_container {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    /*         background-color: red; */
+    overflow: hidden;
+}
+
+#intro_container #intro_text {
+    position: relative;
+    float: left;
+    width: 45%;
+    margin-top: 1%;
+    padding: 1%;
+    font-family: verdana;
+    font-size: 1.2em;
+    /*background: url("../images/notepad.png");*/
+    background-color: #B5C689;
+    overflow: hidden;
+    color: whitesmoke;
+    height: 92%;
+}
+
+#intro_container #intro_pic {
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-top: 1%;
+    padding: 0.75%;
+    background-color: white;
+    height: 93%;
+}
+
+#panels_container #world_map_container {
+    width: 90%;
+    height: 480px;
+/*     padding: 0.8%; */
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#panels_container #world_map_container #world_map {
+    width: 100%;
+    background-color: #333333;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.chart_legend{
+    position: relative;
+    float: right;
+    color: white;
+    right: 10px;
+    bottom: 25px;
+}
+
+.icon-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+}
+
+.icon:before {
+    content: "\00a0";
+}
+
+.icon-traveledTo {
+    background-color: #fa0fa0;
+}
+
+.icon-layover {
+    background-color: #5C8FA0;
+}
+
+.icon-visited {
+    background-color: #CC4731;
+}
+
+.icon-unvisited {
+    background-color: #EDDC4E;
+}
+
+
+#traveledTo {
+    width: 20px;
+    height: 20px;
+    background-color: #fa0fa0;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#layover-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#layover {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+}
+
+#panels_container #text1 {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1%;
+    font-family: verdana;
+    font-size: 1.2em;
+    color: white;
+}
+
+#panels_container #usa_map_container {
+    width: 90%;
+    min-height: 600px;
+/*     padding: 0.8%; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#panels_container #usa_map {
+    width: 100%;
+    min-height: inherit;
+    background-color: #333333;
+    min-height: inherit;
+    margin: 0 auto;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    font-size: 1em;
+    font-family: verdana;
+}

@@ -1,0 +1,776 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\sachinbb\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-jasmine-phantom' ]
+2 info using npm@3.8.9
+3 info using node@v4.4.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData gulp-jasmine-phantom
+8 silly fetchNamedPackageData gulp-jasmine-phantom
+9 silly mapToRegistry name gulp-jasmine-phantom
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'gulp-jasmine-phantom',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'gulp-jasmine-phantom',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/gulp-jasmine-phantom
+14 verbose request uri https://registry.npmjs.org/gulp-jasmine-phantom
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:03:18 PM
+17 verbose request id b0c3c3876fa401f0
+18 http request GET https://registry.npmjs.org/gulp-jasmine-phantom
+19 http 200 https://registry.npmjs.org/gulp-jasmine-phantom
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"486QEZK4IUDQ96VV6CYRSEA1H"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '7140',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sun, 22 May 2016 21:03:13 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1463950992.955500,VS0,VE104',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"486QEZK4IUDQ96VV6CYRSEA1H"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '7140',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sun, 22 May 2016 21:03:13 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-sjc3120-SJC',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1463950992.955500,VS0,VE104',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving gulp-jasmine-phantom to C:\Users\sachinbb\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-jasmine-phantom\.cache.json
+23 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule gulp-jasmine-phantom@3.0.0 checking installable status
+37 silly cache add args [ 'gulp-jasmine-phantom', null ]
+38 verbose cache add spec gulp-jasmine-phantom
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'gulp-jasmine-phantom',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'gulp-jasmine-phantom',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed gulp-jasmine-phantom@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for gulp-jasmine-phantom
+42 info addNameTag [ 'gulp-jasmine-phantom', 'latest' ]
+43 silly mapToRegistry name gulp-jasmine-phantom
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'gulp-jasmine-phantom',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'gulp-jasmine-phantom',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/gulp-jasmine-phantom
+48 verbose addNameTag registry:https://registry.npmjs.org/gulp-jasmine-phantom not in flight; fetching
+49 verbose get https://registry.npmjs.org/gulp-jasmine-phantom not expired, no request
+50 silly addNameTag next cb for gulp-jasmine-phantom with tag latest
+51 silly addNamed gulp-jasmine-phantom@3.0.0
+52 verbose addNamed "3.0.0" is a plain semver version for gulp-jasmine-phantom
+53 silly mapToRegistry name gulp-jasmine-phantom
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'gulp-jasmine-phantom',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'gulp-jasmine-phantom',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/gulp-jasmine-phantom
+58 verbose addRemoteTarball https://registry.npmjs.org/gulp-jasmine-phantom/-/gulp-jasmine-phantom-3.0.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-jasmine-phantom/-/gulp-jasmine-phantom-3.0.0.tgz',
+59 verbose addRemoteTarball   '8e0b2bb22e71d4056a22e9a81b21661918625396' ]
+60 info retry fetch attempt 1 at 4:03:19 PM
+61 info attempt registry request try #1 at 4:03:19 PM
+62 http fetch GET https://registry.npmjs.org/gulp-jasmine-phantom/-/gulp-jasmine-phantom-3.0.0.tgz
+63 http fetch 200 https://registry.npmjs.org/gulp-jasmine-phantom/-/gulp-jasmine-phantom-3.0.0.tgz
+64 silly fetchAndShaCheck shasum 8e0b2bb22e71d4056a22e9a81b21661918625396
+65 verbose addTmpTarball C:\Users\sachinbb\AppData\Local\Temp\npm-33308-2aa403e3\registry.npmjs.org\gulp-jasmine-phantom\-\gulp-jasmine-phantom-3.0.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for gulp-jasmine-phantom@3.0.0
+67 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd gulp-jasmine-phantom@3.0.0
+69 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\gulp-jasmine-phantom\3.0.0\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\gulp-jasmine-phantom\3.0.0\package\package.json written
+72 silly fetchNamedPackageData glob
+73 silly mapToRegistry name glob
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'glob',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'glob',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/glob
+78 silly fetchNamedPackageData handlebars
+79 silly mapToRegistry name handlebars
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'handlebars',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'handlebars',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/handlebars
+84 silly fetchNamedPackageData lodash
+85 silly mapToRegistry name lodash
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'lodash',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   name: 'lodash',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/lodash
+90 silly fetchNamedPackageData through2
+91 silly mapToRegistry name through2
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'through2',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   name: 'through2',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/through2
+96 silly fetchOtherPackageData jasmine@github:dflynn15/jasmine-npm
+97 silly cache add args [ 'jasmine@github:dflynn15/jasmine-npm', null ]
+98 verbose cache add spec jasmine@github:dflynn15/jasmine-npm
+99 verbose request uri https://registry.npmjs.org/handlebars
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 4:03:19 PM
+102 http request GET https://registry.npmjs.org/handlebars
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'jasmine@github:dflynn15/jasmine-npm',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'jasmine',
+103 silly cache add   rawSpec: 'github:dflynn15/jasmine-npm',
+103 silly cache add   spec: 'github:dflynn15/jasmine-npm',
+103 silly cache add   type: 'hosted',
+103 silly cache add   hosted:
+103 silly cache add    { type: 'github',
+103 silly cache add      ssh: 'git@github.com:dflynn15/jasmine-npm.git',
+103 silly cache add      sshUrl: 'git+ssh://git@github.com/dflynn15/jasmine-npm.git',
+103 silly cache add      httpsUrl: 'git+https://github.com/dflynn15/jasmine-npm.git',
+103 silly cache add      gitUrl: 'git://github.com/dflynn15/jasmine-npm.git',
+103 silly cache add      shortcut: 'github:dflynn15/jasmine-npm',
+103 silly cache add      directUrl: 'https://raw.githubusercontent.com/dflynn15/jasmine-npm/master/package.json' } }
+104 verbose addRemoteGit caching github:dflynn15/jasmine-npm
+105 verbose addRemoteGit dflynn15/jasmine-npm is a repository hosted by github
+106 silly tryGitProto attempting to clone git://github.com/dflynn15/jasmine-npm.git
+107 silly tryClone cloning dflynn15/jasmine-npm via git://github.com/dflynn15/jasmine-npm.git
+108 verbose tryClone git-github-com-dflynn15-jasmine-npm-git-0d993041 not in flight; caching
+109 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+110 verbose makeDirectory C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+111 verbose makeCacheDir UID & GID are irrelevant on win32
+112 verbose git clone --template=C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dflynn15/jasmine-npm.git C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dflynn15-jasmine-npm-git-0d993041: undefined
+112 verbose git clone --template=C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dflynn15/jasmine-npm.git C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dflynn15-jasmine-npm-git-0d993041: undefined
+113 silly tryHTTPS attempting to clone git+https://github.com/dflynn15/jasmine-npm.git
+114 silly tryClone cloning dflynn15/jasmine-npm via git+https://github.com/dflynn15/jasmine-npm.git
+115 verbose tryClone git-https-github-com-dflynn15-jasmine-npm-git-33e490de not in flight; caching
+116 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+117 verbose request uri https://registry.npmjs.org/through2
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 4:03:19 PM
+120 verbose etag "CJM3LDPS5NY2LK7GTX3FGDWS2"
+121 http request GET https://registry.npmjs.org/through2
+122 http 200 https://registry.npmjs.org/handlebars
+123 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+123 verbose headers   etag: '"ENJ9WDZFDMNDHCH4J19UXZFVI"',
+123 verbose headers   'content-type': 'application/json',
+123 verbose headers   'content-encoding': 'gzip',
+123 verbose headers   'cache-control': 'max-age=300',
+123 verbose headers   'content-length': '10408',
+123 verbose headers   'accept-ranges': 'bytes',
+123 verbose headers   date: 'Sun, 22 May 2016 21:03:14 GMT',
+123 verbose headers   via: '1.1 varnish',
+123 verbose headers   age: '189',
+123 verbose headers   connection: 'keep-alive',
+123 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+123 verbose headers   'x-cache': 'HIT',
+123 verbose headers   'x-cache-hits': '2',
+123 verbose headers   'x-timer': 'S1463950994.006382,VS0,VE0',
+123 verbose headers   vary: 'Accept-Encoding' }
+124 silly get cb [ 200,
+124 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly get     etag: '"ENJ9WDZFDMNDHCH4J19UXZFVI"',
+124 silly get     'content-type': 'application/json',
+124 silly get     'content-encoding': 'gzip',
+124 silly get     'cache-control': 'max-age=300',
+124 silly get     'content-length': '10408',
+124 silly get     'accept-ranges': 'bytes',
+124 silly get     date: 'Sun, 22 May 2016 21:03:14 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     age: '189',
+124 silly get     connection: 'keep-alive',
+124 silly get     'x-served-by': 'cache-sjc3120-SJC',
+124 silly get     'x-cache': 'HIT',
+124 silly get     'x-cache-hits': '2',
+124 silly get     'x-timer': 'S1463950994.006382,VS0,VE0',
+124 silly get     vary: 'Accept-Encoding' } ]
+125 verbose get saving handlebars to C:\Users\sachinbb\AppData\Roaming\npm-cache\registry.npmjs.org\handlebars\.cache.json
+126 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+127 verbose request uri https://registry.npmjs.org/glob
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 4:03:19 PM
+130 verbose etag "H9A2507BJ7FMIGM0G8S2NSKV"
+131 http request GET https://registry.npmjs.org/glob
+132 silly resolveWithNewModule handlebars@2.0.0 checking installable status
+133 silly cache add args [ 'handlebars@^2.0.0', null ]
+134 verbose cache add spec handlebars@^2.0.0
+135 silly cache add parsed spec Result {
+135 silly cache add   raw: 'handlebars@^2.0.0',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'handlebars',
+135 silly cache add   rawSpec: '^2.0.0',
+135 silly cache add   spec: '>=2.0.0 <3.0.0',
+135 silly cache add   type: 'range' }
+136 silly addNamed handlebars@>=2.0.0 <3.0.0
+137 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for handlebars
+138 silly addNameRange { name: 'handlebars', range: '>=2.0.0 <3.0.0', hasData: false }
+139 silly mapToRegistry name handlebars
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'handlebars',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   name: 'handlebars',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri https://registry.npmjs.org/handlebars
+144 verbose addNameRange registry:https://registry.npmjs.org/handlebars not in flight; fetching
+145 verbose request uri https://registry.npmjs.org/lodash
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 4:03:19 PM
+148 verbose etag "5W9K6P2UR1WRJQRKJXMLS8O04"
+149 http request GET https://registry.npmjs.org/lodash
+150 verbose get https://registry.npmjs.org/handlebars not expired, no request
+151 silly addNameRange number 2 { name: 'handlebars', range: '>=2.0.0 <3.0.0', hasData: true }
+152 silly addNameRange versions [ 'handlebars',
+152 silly addNameRange   [ '1.0.6',
+152 silly addNameRange     '1.0.6-2',
+152 silly addNameRange     '1.0.7',
+152 silly addNameRange     '1.0.8',
+152 silly addNameRange     '1.0.9',
+152 silly addNameRange     '1.0.10',
+152 silly addNameRange     '1.0.11',
+152 silly addNameRange     '1.0.12',
+152 silly addNameRange     '1.1.0',
+152 silly addNameRange     '1.1.1',
+152 silly addNameRange     '1.1.2',
+152 silly addNameRange     '1.2.0',
+152 silly addNameRange     '1.2.1',
+152 silly addNameRange     '1.3.0',
+152 silly addNameRange     '2.0.0-alpha.1',
+152 silly addNameRange     '2.0.0-alpha.2',
+152 silly addNameRange     '2.0.0-alpha.3',
+152 silly addNameRange     '2.0.0-alpha.4',
+152 silly addNameRange     '2.0.0-beta.1',
+152 silly addNameRange     '2.0.0',
+152 silly addNameRange     '3.0.0',
+152 silly addNameRange     '3.0.1',
+152 silly addNameRange     '3.0.2',
+152 silly addNameRange     '3.0.3',
+152 silly addNameRange     '4.0.0',
+152 silly addNameRange     '4.0.1',
+152 silly addNameRange     '4.0.2',
+152 silly addNameRange     '4.0.3',
+152 silly addNameRange     '4.0.4',
+152 silly addNameRange     '4.0.5',
+152 silly addNameRange     '1.0.2-beta',
+152 silly addNameRange     '1.0.4-beta',
+152 silly addNameRange     '1.0.5-beta' ] ]
+153 silly addNamed handlebars@2.0.0
+154 verbose addNamed "2.0.0" is a plain semver version for handlebars
+155 silly mapToRegistry name handlebars
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'handlebars',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   name: 'handlebars',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag' }
+159 silly mapToRegistry uri https://registry.npmjs.org/handlebars
+160 verbose addRemoteTarball https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz not in flight; adding
+161 verbose addRemoteTarball [ 'https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz',
+161 verbose addRemoteTarball   '6e9d7f8514a3467fa5e9f82cc158ecfc1d5ac76f' ]
+162 info retry fetch attempt 1 at 4:03:19 PM
+163 info attempt registry request try #1 at 4:03:19 PM
+164 http fetch GET https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz
+165 http 304 https://registry.npmjs.org/through2
+166 verbose headers { date: 'Sun, 22 May 2016 21:03:14 GMT',
+166 verbose headers   via: '1.1 varnish',
+166 verbose headers   'cache-control': 'max-age=300',
+166 verbose headers   etag: '"CJM3LDPS5NY2LK7GTX3FGDWS2"',
+166 verbose headers   age: '20',
+166 verbose headers   connection: 'keep-alive',
+166 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+166 verbose headers   'x-cache': 'HIT',
+166 verbose headers   'x-cache-hits': '2',
+166 verbose headers   'x-timer': 'S1463950994.057015,VS0,VE0',
+166 verbose headers   vary: 'Accept-Encoding' }
+167 silly get cb [ 304,
+167 silly get   { date: 'Sun, 22 May 2016 21:03:14 GMT',
+167 silly get     via: '1.1 varnish',
+167 silly get     'cache-control': 'max-age=300',
+167 silly get     etag: '"CJM3LDPS5NY2LK7GTX3FGDWS2"',
+167 silly get     age: '20',
+167 silly get     connection: 'keep-alive',
+167 silly get     'x-served-by': 'cache-sjc3120-SJC',
+167 silly get     'x-cache': 'HIT',
+167 silly get     'x-cache-hits': '2',
+167 silly get     'x-timer': 'S1463950994.057015,VS0,VE0',
+167 silly get     vary: 'Accept-Encoding' } ]
+168 verbose etag https://registry.npmjs.org/through2 from cache
+169 verbose get saving through2 to C:\Users\sachinbb\AppData\Roaming\npm-cache\registry.npmjs.org\through2\.cache.json
+170 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+171 silly resolveWithNewModule through2@0.6.5 checking installable status
+172 silly cache add args [ 'through2@^0.6.1', null ]
+173 verbose cache add spec through2@^0.6.1
+174 silly cache add parsed spec Result {
+174 silly cache add   raw: 'through2@^0.6.1',
+174 silly cache add   scope: null,
+174 silly cache add   name: 'through2',
+174 silly cache add   rawSpec: '^0.6.1',
+174 silly cache add   spec: '>=0.6.1 <0.7.0',
+174 silly cache add   type: 'range' }
+175 silly addNamed through2@>=0.6.1 <0.7.0
+176 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for through2
+177 silly addNameRange { name: 'through2', range: '>=0.6.1 <0.7.0', hasData: false }
+178 silly mapToRegistry name through2
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry data Result {
+181 silly mapToRegistry   raw: 'through2',
+181 silly mapToRegistry   scope: null,
+181 silly mapToRegistry   name: 'through2',
+181 silly mapToRegistry   rawSpec: '',
+181 silly mapToRegistry   spec: 'latest',
+181 silly mapToRegistry   type: 'tag' }
+182 silly mapToRegistry uri https://registry.npmjs.org/through2
+183 verbose addNameRange registry:https://registry.npmjs.org/through2 not in flight; fetching
+184 verbose get https://registry.npmjs.org/through2 not expired, no request
+185 silly addNameRange number 2 { name: 'through2', range: '>=0.6.1 <0.7.0', hasData: true }
+186 silly addNameRange versions [ 'through2',
+186 silly addNameRange   [ '0.0.0',
+186 silly addNameRange     '0.0.1',
+186 silly addNameRange     '0.0.2',
+186 silly addNameRange     '0.0.3',
+186 silly addNameRange     '0.0.4',
+186 silly addNameRange     '0.0.5',
+186 silly addNameRange     '0.1.0',
+186 silly addNameRange     '0.2.0',
+186 silly addNameRange     '0.2.1',
+186 silly addNameRange     '0.2.2',
+186 silly addNameRange     '0.2.3',
+186 silly addNameRange     '0.3.0',
+186 silly addNameRange     '0.4.0',
+186 silly addNameRange     '0.4.1',
+186 silly addNameRange     '1.0.0',
+186 silly addNameRange     '0.4.2',
+186 silly addNameRange     '0.5.0',
+186 silly addNameRange     '0.5.1',
+186 silly addNameRange     '0.6.0',
+186 silly addNameRange     '1.1.0',
+186 silly addNameRange     '0.6.1',
+186 silly addNameRange     '1.1.1',
+186 silly addNameRange     '0.6.2',
+186 silly addNameRange     '0.6.3',
+186 silly addNameRange     '0.6.4',
+186 silly addNameRange     '0.6.5',
+186 silly addNameRange     '2.0.0',
+186 silly addNameRange     '2.0.1' ] ]
+187 silly addNamed through2@0.6.5
+188 verbose addNamed "0.6.5" is a plain semver version for through2
+189 verbose git clone --template=C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dflynn15/jasmine-npm.git C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-dflynn15-jasmine-npm-git-33e490de: undefined
+189 verbose git clone --template=C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dflynn15/jasmine-npm.git C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-dflynn15-jasmine-npm-git-33e490de: undefined
+190 silly trySSH attempting to clone git@github.com:dflynn15/jasmine-npm.git
+191 silly tryClone cloning dflynn15/jasmine-npm via git@github.com:dflynn15/jasmine-npm.git
+192 verbose tryClone git-github-com-dflynn15-jasmine-npm-git-84ec2f5a not in flight; caching
+193 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+194 silly cache afterAdd through2@0.6.5
+195 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\through2\0.6.5\package\package.json not in flight; writing
+196 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+197 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\through2\0.6.5\package\package.json written
+198 error git clone --template=C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dflynn15/jasmine-npm.git C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dflynn15-jasmine-npm-git-84ec2f5a: undefined
+198 error git clone --template=C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dflynn15/jasmine-npm.git C:\Users\sachinbb\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dflynn15-jasmine-npm-git-84ec2f5a: undefined
+199 silly fetchPackageMetaData Error: not found: git
+199 silly fetchPackageMetaData     at F (C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\which.js:63:19)
+199 silly fetchPackageMetaData     at E (C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\which.js:72:29)
+199 silly fetchPackageMetaData     at C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\which.js:81:16
+199 silly fetchPackageMetaData     at C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+199 silly fetchPackageMetaData     at C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+199 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:82:15)
+199 silly fetchPackageMetaData  error for jasmine@github:dflynn15/jasmine-npm { [Error: not found: git] code: 'ENOGIT' }
+200 http 304 https://registry.npmjs.org/glob
+201 verbose headers { date: 'Sun, 22 May 2016 21:03:14 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   etag: '"H9A2507BJ7FMIGM0G8S2NSKV"',
+201 verbose headers   age: '141',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-sjc3129-SJC',
+201 verbose headers   'x-cache': 'HIT',
+201 verbose headers   'x-cache-hits': '12',
+201 verbose headers   'x-timer': 'S1463950994.238671,VS0,VE0',
+201 verbose headers   vary: 'Accept-Encoding' }
+202 silly get cb [ 304,
+202 silly get   { date: 'Sun, 22 May 2016 21:03:14 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     etag: '"H9A2507BJ7FMIGM0G8S2NSKV"',
+202 silly get     age: '141',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-sjc3129-SJC',
+202 silly get     'x-cache': 'HIT',
+202 silly get     'x-cache-hits': '12',
+202 silly get     'x-timer': 'S1463950994.238671,VS0,VE0',
+202 silly get     vary: 'Accept-Encoding' } ]
+203 verbose etag https://registry.npmjs.org/glob from cache
+204 verbose get saving glob to C:\Users\sachinbb\AppData\Roaming\npm-cache\registry.npmjs.org\glob\.cache.json
+205 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+206 http 304 https://registry.npmjs.org/lodash
+207 verbose headers { date: 'Sun, 22 May 2016 21:03:14 GMT',
+207 verbose headers   via: '1.1 varnish',
+207 verbose headers   'cache-control': 'max-age=300',
+207 verbose headers   etag: '"5W9K6P2UR1WRJQRKJXMLS8O04"',
+207 verbose headers   age: '17',
+207 verbose headers   connection: 'keep-alive',
+207 verbose headers   'x-served-by': 'cache-sjc3128-SJC',
+207 verbose headers   'x-cache': 'HIT',
+207 verbose headers   'x-cache-hits': '2',
+207 verbose headers   'x-timer': 'S1463950994.239385,VS0,VE0',
+207 verbose headers   vary: 'Accept-Encoding' }
+208 silly get cb [ 304,
+208 silly get   { date: 'Sun, 22 May 2016 21:03:14 GMT',
+208 silly get     via: '1.1 varnish',
+208 silly get     'cache-control': 'max-age=300',
+208 silly get     etag: '"5W9K6P2UR1WRJQRKJXMLS8O04"',
+208 silly get     age: '17',
+208 silly get     connection: 'keep-alive',
+208 silly get     'x-served-by': 'cache-sjc3128-SJC',
+208 silly get     'x-cache': 'HIT',
+208 silly get     'x-cache-hits': '2',
+208 silly get     'x-timer': 'S1463950994.239385,VS0,VE0',
+208 silly get     vary: 'Accept-Encoding' } ]
+209 verbose etag https://registry.npmjs.org/lodash from cache
+210 verbose get saving lodash to C:\Users\sachinbb\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+211 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+212 http fetch 200 https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz
+213 silly resolveWithNewModule lodash@4.12.0 checking installable status
+214 silly cache add args [ 'lodash@^4.3.0', null ]
+215 verbose cache add spec lodash@^4.3.0
+216 silly cache add parsed spec Result {
+216 silly cache add   raw: 'lodash@^4.3.0',
+216 silly cache add   scope: null,
+216 silly cache add   name: 'lodash',
+216 silly cache add   rawSpec: '^4.3.0',
+216 silly cache add   spec: '>=4.3.0 <5.0.0',
+216 silly cache add   type: 'range' }
+217 silly addNamed lodash@>=4.3.0 <5.0.0
+218 verbose addNamed ">=4.3.0 <5.0.0" is a valid semver range for lodash
+219 silly addNameRange { name: 'lodash', range: '>=4.3.0 <5.0.0', hasData: false }
+220 silly mapToRegistry name lodash
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npmjs.org/
+223 silly mapToRegistry data Result {
+223 silly mapToRegistry   raw: 'lodash',
+223 silly mapToRegistry   scope: null,
+223 silly mapToRegistry   name: 'lodash',
+223 silly mapToRegistry   rawSpec: '',
+223 silly mapToRegistry   spec: 'latest',
+223 silly mapToRegistry   type: 'tag' }
+224 silly mapToRegistry uri https://registry.npmjs.org/lodash
+225 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+226 silly resolveWithNewModule glob@4.5.3 checking installable status
+227 silly cache add args [ 'glob@^4.0.6', null ]
+228 verbose cache add spec glob@^4.0.6
+229 silly cache add parsed spec Result {
+229 silly cache add   raw: 'glob@^4.0.6',
+229 silly cache add   scope: null,
+229 silly cache add   name: 'glob',
+229 silly cache add   rawSpec: '^4.0.6',
+229 silly cache add   spec: '>=4.0.6 <5.0.0',
+229 silly cache add   type: 'range' }
+230 silly addNamed glob@>=4.0.6 <5.0.0
+231 verbose addNamed ">=4.0.6 <5.0.0" is a valid semver range for glob
+232 silly addNameRange { name: 'glob', range: '>=4.0.6 <5.0.0', hasData: false }
+233 silly mapToRegistry name glob
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'glob',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   name: 'glob',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npmjs.org/glob
+238 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+239 verbose get https://registry.npmjs.org/lodash not expired, no request
+240 silly addNameRange number 2 { name: 'lodash', range: '>=4.3.0 <5.0.0', hasData: true }
+241 silly addNameRange versions [ 'lodash',
+241 silly addNameRange   [ '0.1.0',
+241 silly addNameRange     '0.2.0',
+241 silly addNameRange     '0.2.1',
+241 silly addNameRange     '0.2.2',
+241 silly addNameRange     '0.3.0',
+241 silly addNameRange     '0.3.1',
+241 silly addNameRange     '0.3.2',
+241 silly addNameRange     '0.4.0',
+241 silly addNameRange     '0.4.1',
+241 silly addNameRange     '0.4.2',
+241 silly addNameRange     '0.5.0-rc.1',
+241 silly addNameRange     '0.5.0',
+241 silly addNameRange     '0.5.1',
+241 silly addNameRange     '0.5.2',
+241 silly addNameRange     '0.6.0',
+241 silly addNameRange     '0.6.1',
+241 silly addNameRange     '0.7.0',
+241 silly addNameRange     '0.8.0',
+241 silly addNameRange     '0.8.1',
+241 silly addNameRange     '0.8.2',
+241 silly addNameRange     '0.9.0',
+241 silly addNameRange     '0.9.1',
+241 silly addNameRange     '0.9.2',
+241 silly addNameRange     '0.10.0',
+241 silly addNameRange     '1.0.0-rc.1',
+241 silly addNameRange     '1.0.0-rc.2',
+241 silly addNameRange     '1.0.0-rc.3',
+241 silly addNameRange     '1.0.0',
+241 silly addNameRange     '1.0.1',
+241 silly addNameRange     '1.1.0',
+241 silly addNameRange     '1.1.1',
+241 silly addNameRange     '1.2.0',
+241 silly addNameRange     '1.2.1',
+241 silly addNameRange     '1.3.0',
+241 silly addNameRange     '1.3.1',
+241 silly addNameRange     '2.0.0',
+241 silly addNameRange     '2.1.0',
+241 silly addNameRange     '2.2.0',
+241 silly addNameRange     '2.2.1',
+241 silly addNameRange     '2.3.0',
+241 silly addNameRange     '2.4.0',
+241 silly addNameRange     '2.4.1',
+241 silly addNameRange     '3.0.0',
+241 silly addNameRange     '3.0.1',
+241 silly addNameRange     '3.1.0',
+241 silly addNameRange     '3.2.0',
+241 silly addNameRange     '3.3.0',
+241 silly addNameRange     '3.3.1',
+241 silly addNameRange     '3.4.0',
+241 silly addNameRange     '3.5.0',
+241 silly addNameRange     '3.6.0',
+241 silly addNameRange     '1.0.2',
+241 silly addNameRange     '3.7.0',
+241 silly addNameRange     '2.4.2',
+241 silly addNameRange     '3.8.0',
+241 silly addNameRange     '3.9.0',
+241 silly addNameRange     '3.9.1',
+241 silly addNameRange     '3.9.2',
+241 silly addNameRange     '3.9.3',
+241 silly addNameRange     '3.10.0',
+241 silly addNameRange     '3.10.1',
+241 silly addNameRange     '4.0.0',
+241 silly addNameRange     '4.0.1',
+241 silly addNameRange     '4.1.0',
+241 silly addNameRange     '4.2.0',
+241 silly addNameRange     '4.2.1',
+241 silly addNameRange     '4.3.0',
+241 silly addNameRange     '4.4.0',
+241 silly addNameRange     '4.5.0',
+241 silly addNameRange     '4.5.1',
+241 silly addNameRange     '4.6.0',
+241 silly addNameRange     '4.6.1',
+241 silly addNameRange     '4.7.0',
+241 silly addNameRange     '4.8.0',
+241 silly addNameRange     '4.8.1',
+241 silly addNameRange     '4.8.2',
+241 silly addNameRange     '4.9.0',
+241 silly addNameRange     '4.10.0',
+241 silly addNameRange     '4.11.0',
+241 silly addNameRange     '4.11.1',
+241 silly addNameRange     '4.11.2',
+241 silly addNameRange     '4.12.0' ] ]
+242 silly addNamed lodash@4.12.0
+243 verbose addNamed "4.12.0" is a plain semver version for lodash
+244 verbose get https://registry.npmjs.org/glob not expired, no request
+245 silly addNameRange number 2 { name: 'glob', range: '>=4.0.6 <5.0.0', hasData: true }
+246 silly addNameRange versions [ 'glob',
+246 silly addNameRange   [ '1.1.0',
+246 silly addNameRange     '2.0.9',
+246 silly addNameRange     '2.0.8',
+246 silly addNameRange     '2.0.7',
+246 silly addNameRange     '2.1.0',
+246 silly addNameRange     '3.0.0',
+246 silly addNameRange     '3.0.1',
+246 silly addNameRange     '3.1.0',
+246 silly addNameRange     '3.1.1',
+246 silly addNameRange     '3.1.2',
+246 silly addNameRange     '3.1.3',
+246 silly addNameRange     '3.1.4',
+246 silly addNameRange     '3.1.5',
+246 silly addNameRange     '3.1.6',
+246 silly addNameRange     '3.1.7',
+246 silly addNameRange     '3.1.9',
+246 silly addNameRange     '3.1.10',
+246 silly addNameRange     '3.1.11',
+246 silly addNameRange     '3.1.12',
+246 silly addNameRange     '3.1.13',
+246 silly addNameRange     '3.1.14',
+246 silly addNameRange     '3.1.15',
+246 silly addNameRange     '3.1.16',
+246 silly addNameRange     '3.1.17',
+246 silly addNameRange     '3.1.18',
+246 silly addNameRange     '3.1.19',
+246 silly addNameRange     '3.1.20',
+246 silly addNameRange     '3.1.21',
+246 silly addNameRange     '3.2.0',
+246 silly addNameRange     '3.2.1',
+246 silly addNameRange     '3.2.3',
+246 silly addNameRange     '3.2.4',
+246 silly addNameRange     '3.2.5',
+246 silly addNameRange     '3.2.6',
+246 silly addNameRange     '3.2.7',
+246 silly addNameRange     '3.2.8',
+246 silly addNameRange     '3.2.9',
+246 silly addNameRange     '3.2.10',
+246 silly addNameRange     '3.2.11',
+246 silly addNameRange     '4.0.0',
+246 silly addNameRange     '4.0.1',
+246 silly addNameRange     '4.0.2',
+246 silly addNameRange     '4.0.3',
+246 silly addNameRange     '4.0.4',
+246 silly addNameRange     '4.0.5',
+246 silly addNameRange     '4.0.6',
+246 silly addNameRange     '4.1.2-beta',
+246 silly addNameRange     '4.1.2',
+246 silly addNameRange     '4.1.3',
+246 silly addNameRange     '4.1.4',
+246 silly addNameRange     '4.1.5',
+246 silly addNameRange     '4.1.6',
+246 silly addNameRange     '4.2.0',
+246 silly addNameRange     '4.2.1',
+246 silly addNameRange     '4.2.2',
+246 silly addNameRange     '4.3.0',
+246 silly addNameRange     '4.3.1',
+246 silly addNameRange     '4.3.2',
+246 silly addNameRange     '4.3.3',
+246 silly addNameRange     '4.3.4',
+246 silly addNameRange     '4.3.5',
+246 silly addNameRange     '4.4.0',
+246 silly addNameRange     '4.4.2',
+246 silly addNameRange     '4.5.0',
+246 silly addNameRange     '5.0.0',
+246 silly addNameRange     '4.5.1',
+246 silly addNameRange     '5.0.1',
+246 silly addNameRange     '4.5.2',
+246 silly addNameRange     '5.0.2',
+246 silly addNameRange     '4.5.3',
+246 silly addNameRange     '5.0.3',
+246 silly addNameRange     '5.0.4',
+246 silly addNameRange     '5.0.5',
+246 silly addNameRange     '5.0.6',
+246 silly addNameRange     '5.0.7',
+246 silly addNameRange     '5.0.9',
+246 silly addNameRange     '5.0.10',
+246 silly addNameRange     '5.0.11',
+246 silly addNameRange     '5.0.12',
+246 silly addNameRange     '5.0.13',
+246 silly addNameRange     '5.0.14',
+246 silly addNameRange     '5.0.15',
+246 silly addNameRange     '6.0.1',
+246 silly addNameRange     '6.0.2',
+246 silly addNameRange     '6.0.3',
+246 silly addNameRange     '6.0.4',
+246 silly addNameRange     '7.0.0',
+246 silly addNameRange     '7.0.1',
+246 silly addNameRange     '7.0.3' ] ]
+247 silly addNamed glob@4.5.3
+248 verbose addNamed "4.5.3" is a plain semver version for glob
+249 silly cache afterAdd lodash@4.12.0
+250 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\lodash\4.12.0\package\package.json not in flight; writing
+251 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+252 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\lodash\4.12.0\package\package.json written
+253 silly cache afterAdd glob@4.5.3
+254 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\glob\4.5.3\package\package.json not in flight; writing
+255 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+256 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\glob\4.5.3\package\package.json written
+257 silly fetchAndShaCheck shasum 6e9d7f8514a3467fa5e9f82cc158ecfc1d5ac76f
+258 verbose addTmpTarball C:\Users\sachinbb\AppData\Local\Temp\npm-33308-2aa403e3\registry.npmjs.org\handlebars\-\handlebars-2.0.0.tgz not in flight; adding
+259 verbose addTmpTarball already have metadata; skipping unpack for handlebars@2.0.0
+260 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+261 silly cache afterAdd handlebars@2.0.0
+262 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\handlebars\2.0.0\package\package.json not in flight; writing
+263 verbose correctMkdir C:\Users\sachinbb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+264 verbose afterAdd C:\Users\sachinbb\AppData\Roaming\npm-cache\handlebars\2.0.0\package\package.json written
+265 silly rollbackFailedOptional Starting
+266 silly rollbackFailedOptional Finishing
+267 silly runTopLevelLifecycles Starting
+268 silly runTopLevelLifecycles Finishing
+269 silly install printInstalled
+270 verbose stack Error: not found: git
+270 verbose stack     at F (C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\which.js:63:19)
+270 verbose stack     at E (C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\which.js:72:29)
+270 verbose stack     at C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\which.js:81:16
+270 verbose stack     at C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+270 verbose stack     at C:\Users\sachinbb\AppData\Roaming\npm\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+270 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+271 verbose cwd C:\xampp\htdocs\Git Projects\Conquests
+272 error Windows_NT 10.0.10586
+273 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\sachinbb\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-jasmine-phantom"
+274 error node v4.4.4
+275 error npm  v3.8.9
+276 error code ENOGIT
+277 error not found: git
+278 error Failed using git.
+278 error This is most likely not a problem with npm itself.
+278 error Please check if you have git installed and in your PATH.
+279 verbose exit [ 1, true ]
